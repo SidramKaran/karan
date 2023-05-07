@@ -1,0 +1,102 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-size: 'gill sans', 'gill sans mt', calibri;
+
+}
+body{
+    background-color: white;
+    width:100vw ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background-color: white;
+    width:60% ;
+    height: 75%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+
+
+}
+#box1{
+    background:linear-gradient( #3CB29C, #3AB892);
+    width:35%;
+    height:100%;
+    border-radius: 15px 0px 0 px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+box1 a{
+    color: blue;
+}
+#box1 div h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+
+
+}
+
+#box2{
+    background-color: white;
+    width: 65%;
+    height: 100%;
+    border-radius: 0px 15px 15px 0px;
+}
+#box1 div p{
+    width: 90%;
+    margin: auto;
+    font-size: 13px;
+    font-weight: lighter;
+    margin-bottom: 25px;
+
+}
+#box1 div a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    border: solid 1px white;
+    border-radius: 30px;
+}
+#box2{
+    background-color: white;
+    width: 65%;
+    height: 100%;
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#box2 h1{
+    color: #3AB892;
+    font-size: 35px;
+    text-align: center;
+    margin: 15px 0px;
+
+}
+#icon-list i{
+    width: 50%;
+    margin:10px auto ;
+    text-align: center;
+
+}
+#icon-list span{
+    display: inline-block;
+    border: 1px solid rgb(195,195,195);
+    padding:5px ;
+    border-radius:50% ;
+    margin: 5px;
+}
+#box2 p{
+    color: rgb(195,195,195);
+    text-align: center;
+    margin: 10px 0px;
+}
